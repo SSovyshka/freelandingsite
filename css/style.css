@@ -5,6 +5,17 @@
     font-size: 18px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+a, a:hover{
+    text-decoration:none;
+    color: black;
+}
+
+
+
 :root {
     --main-text-color: #070707;
 }
@@ -251,4 +262,10 @@ img .den{
     color: #828282;
     margin-top: 45px;
     text-align: center;
+}
+
+.topNubex{
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
 }
