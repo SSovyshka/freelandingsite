@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gilroy";
+    font-size: 18px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a, a:hover{
+    text-decoration:none;
+    color: black;
+}
+
+
+
+:root {
+    --main-text-color: #070707;
+}
+  
+body{
+    min-width: 1140px;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+ul {
+    margin-left: 0; 
+    padding-left: 0; 
+}
+    
+li{
+    list-style-type: none;
+}
+
+.base{
+    position: relative;
+    max-width: 1440px;
+    max-height: 100%;       
+}
+
+.rotate-90{
+    transform: rotate(-90deg);
+}
+
+.header-menu{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #828282;
+}
+
+
+
+.first-block{
+    width: 940px;
+    height: 768px;
+    background-color: white;
+    position: relative;
+}
+
+.first-block .menu{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    text-align-last: justify;
+    align-items: center;
+}
+
+.first-block .menu .menu-item{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px;  
+}
+
+.block-text-ui{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    text-align-last: justify;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.block-text-ui .text-ui{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px; 
+}
+
+.block-text-ui .bold-text{
+    color:  var(--main-text-color);
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+
+img .den{
+    width: 943.61px;
+    height: 387px;
+}
+
+.second-block{
+    max-width: 1440px;
+    height: 506px;
+    background: #F6F6F6;
+    position: relative;
+}
+
+.second-block .about-me-block{
+    padding-top: 120px;
+}
+
+.about-me{
+    font-size: 34px;
+    text-align: center;
+}
+
+.second-block .text-about-me{
+    font-size: 18px;
+    text-align: center;
+}
+
+.third-block{
+    width: 1440px;
+    height: 610px;
+    position: relative;  
+
+}
+
+.third-block .about-me{
+    padding-top: 91px;
+}
+
+.third-block .text-skills{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.skills-block{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: justify; 
+    text-align-last: justify; */
+    margin-top: 82px;
+    height: 210px;
+    width: 940px;
+}
+    
+.main-text-skills{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.skill-block img.icon-skill{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+
+.skill-block .text-skill-block{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 23px;
+    color: #828282;
+    width: 100px;
+}
+
+
+
+.star{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.four-block{
+    max-width: 1440px;
+    height: 2253px;
+    background: #F6F6F6;
+    position: relative;
+}
+
+.four-block .about-me{
+    padding-top:112px;
+}
+
+.portfolio{ margin-top: 47px;}
+
+.portfolio-contain{
+    display: block;
+    width: 936.24px;
+    margin: 0 auto;
+    margin-top: 99px;
+}
+
+.text-portfolio{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.main-text-skills img.figma{
+    width: 60px;
+    height: 90px;
+}
+
+.jop{
+    margin-top: 20px;
+}
+
+
+.five-block{
+    width: 1440px;
+    height: 620px;
+}
+
+.send-mess{
+    display: block;
+    width: 180px;
+    height: 42px;   
+    background: black;
+    border-radius: 20px;
+    color: white;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+.viev-cont{
+    width: 343px;
+    height: 41px;
+    margin:0 auto;
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    text-align-last: justify;
+    align-items: center;
+}
+
+.icon-cont{
+    width: 40px;
+    height: 40px;
+}
+
+.like{
+    font-size: 14px;
+    color: #828282;
+    margin-top: 45px;
+    text-align: center;
+}
